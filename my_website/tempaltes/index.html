@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: white;
+            padding: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        nav {
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px #00000008;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <strong>My Website</strong>
+            <a href="/about">このサイトについて</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h1>ようこそ！</h1>
+            <p>
+                Pythonで作ったWebサイトへようこそ。
+                これからいろいろな機能を追加していこう！
+            </p>
+            <a class="button" href="/about">
+                サイトについて
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 My Website
+    </footer>
+</body>
+</html>
